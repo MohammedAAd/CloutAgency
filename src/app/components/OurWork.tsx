@@ -1,6 +1,15 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { useLanguage } from './LanguageProvider';
+import abfaraj from '../../assets/abfaraj_logo.jpg'
+import almatar from '../../assets/autoecole-ALMATAR-ad-final.png'
+import layali from '../../assets/layaliV2.jpg'
+import lightframe from '../../assets/lightframewebsite.png'
+import ataoufique from '../../assets/logo-ataoufiqueFINAL.jpg'
+import smartschool from '../../assets/smartschool.jpg'
+import sante from '../../assets/santé-logo1.png'
+import wadii from '../../assets/wadii pescados.png'
+import sohbat from '../../assets/sohbat-alkhaire-B-1_logo.png'
 
 export function OurWork() {
   const { t } = useLanguage();
@@ -8,63 +17,63 @@ export function OurWork() {
 
   const projects = [
     {
-      image: '/src/assets/abfaraj_logo.jpg',
+      image: abfaraj,
       title: 'AB Faraj',
       category: 'Logo & Branding',
       description: 'نادي الأب فرج لكرة القدم - Club AB Faraj Football',
       link: null
     },
     {
-      image: '/src/assets/autoecole-ALMATAR-ad-final.png',
+      image: almatar,
       title: 'Auto-école ALMATAR',
       category: 'Publicité',
       description: 'Campagne publicitaire',
       link: null
     },
     {
-      image: '/src/assets/layaliV2.jpg',
+      image: layali,
       title: 'Layali lmadih',
       category: 'Publicité',
       description: 'Campagne publicitaire',
       link: null
     },
     {
-      image: '/src/assets/lightframewebsite.png',
+      image: lightframe,
       title: 'Lightframe Website',
       category: 'Web Design',
       description: 'Site web moderne et responsive',
       link: 'https://lightframe.ma/'
     },
     {
-      image: '/src/assets/logo-ataoufiqueFINAL.jpg',
+      image: ataoufique,
       title: 'Ataoufique',
       category: 'Logo Design',
       description: 'Création de logo',
       link: null
     },
     {
-      image: '/src/assets/smartschool.jpg',
+      image: smartschool,
       title: 'Smart School',
       category: 'Logo Design',
       description: 'Création de logo',
       link: null
     },
     {
-      image: '/src/assets/santé-logo1.png',
+      image: sante,
       title: 'Santé',
       category: 'Branding Santé',
       description: 'Identité pour marque santé',
       link: null
     },
     {
-      image: '/src/assets/wadii pescados.png',
+      image: wadii,
       title: 'Wadii pescados',
       category: 'Logo Design',
       description: 'Création de logo',
       link: null
     },
     {
-      image: '/src/assets/sohbat-alkhaire-B-1_logo.png',
+      image: sohbat,
       title: 'Sohbat Alkhaire',
       category: 'Logo & Branding',
       description: 'Identité visuelle complète',

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Languages } from 'lucide-react';
 import { useLanguage } from './LanguageProvider';
+import logoClout from '../../assets/logo_clout.png'  // ✅ Deux fois ../
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -55,7 +56,7 @@ export function Header() {
           whileHover={{ scale: 1.05 }}
         >
           <img 
-            src="/src/assets/logo_clout.png" 
+            src={logoClout}
             alt="CLOUT Agency Logo"
             className="h-12 w-auto object-contain" // Augmenté de h-12 à h-16
             onError={(e) => {

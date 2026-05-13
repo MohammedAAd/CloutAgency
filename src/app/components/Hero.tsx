@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles, Rocket, Users, Trophy, Zap } from 'lucide-react';
 import { useLanguage } from './LanguageProvider';
+import cloutheroF from '../../assets/cloutheroF.png'
 
 export function Hero() {
   const { t } = useLanguage();
@@ -241,7 +242,7 @@ export function Hero() {
               className="relative"
             >
               <motion.img
-                src="/src/assets/cloutheroF.png"
+                src={cloutheroF}
                 alt="Digital Marketing Agency"
                 className="relative w-full h-auto drop-shadow-xl"
                 initial={{ scale: 0.95 }}
